@@ -6,3 +6,6 @@ class Car:
 
     def get_into(self):
         return f"[{self.year}][{self.make}][{self.model}]"
+
+first_car = Car("Toyota", "Corolla", 2020)
+print(first_car.get_into())
