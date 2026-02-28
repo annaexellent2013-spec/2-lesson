@@ -13,3 +13,9 @@ class BankAccount:
             print(f"Знято {amount}. Залишилося: {self.balance}")
         else:
             print("Недостатньо коштів на рахунку.")
+
+
+first_account = BankAccount("UA12345678", 1000)
+first_account.deposit(500)
+first_account.withdraw(300)
+first_account.withdraw(2000)
